@@ -4,7 +4,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open(r'C:\Users\soham\OneDrive\Desktop\New folder (4)\Score_Predictor\model.pkl', 'rb'))
 
 @app.route('/')
 def helloworld():
@@ -56,5 +56,3 @@ def predict():
     return jsonify({'prediction': fnl[0]})
 
 
-if __name__ == '__main__':
-    app.run(debug=True, port=9000)
