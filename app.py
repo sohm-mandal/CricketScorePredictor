@@ -4,7 +4,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-model = pickle.load(open(r'C:\Users\soham\OneDrive\Desktop\New folder (4)\Score_Predictor\model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 @app.route('/')
 def helloworld():
