@@ -3,14 +3,12 @@ ipykernel==6.29.5
 ipython==8.18.1
 itsdangerous==2.2.0
 jsonschema==4.22.0
-jsonschema-specifications==2023.12.1
 jupyter-client==8.6.2
 jupyter-core==5.7.2
 keras==3.4.1
 matplotlib==3.9.2
 matplotlib-inline==0.1.7
 numpy==1.26.4
-pafy==0.5.5
 pandas==2.2.2
 parso==0.8.4
 pdfminer.six==20231228
@@ -43,9 +41,6 @@ sortedcontainers==2.4.0
 spacy==3.7.5
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
-srsly==2.4.8
-stack-data==0.6.3
-streamlit==1.36.0
 streamlit-tags==1.2.8
 tenacity==8.4.2
 tensorboard==2.17.0
